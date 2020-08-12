@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <script src="com.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <ul style="display: flex;
+        list-style-type: none;
+        justify-content: space-between;">
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>SING IN</li>
+            </ul>
+        </div>
+        <div style="display: flex;
+    flex-direction: column;">
+            <div>
+                <input id="comment" type="text" placeholder="enter comment">
+                <button onclick="comment()">comment</button>
+            </div>
+            <div>
+                <button id="like" onclick="like()">like</button>
+                <button id="dislike" onclick="dislike()">dislike</button>
+            </div>
+        </div>
+        <div id="id1">
+            <div id="id2">
+                sample comment
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
